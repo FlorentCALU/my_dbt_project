@@ -1,13 +1,13 @@
 version: 2
 
 sources:
-  - name: googles_analytics_4
+  - name: google_analytics_4
     schema: google_analytics_4
     tables:
       - name: events_20210131
       
-  - name: google_sheets
-    schema: google_sheets
+  - name: us_google_sheets
+    schema: us_google_sheets
     tables:
       - name: account_manager_region_mapping
 
